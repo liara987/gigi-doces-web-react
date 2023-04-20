@@ -1,12 +1,15 @@
-import Card from './components/Card/index.tsx'
+import Card from "./components/Card/index.tsx";
 
 function App() {
-
   return (
     <>
-      <Card/>
+      <Card
+        src="https://liara987.github.io/gigi-doces/images/menu/09.cesta.jpeg"
+        cost={50}
+        title="Cesta com chocolate"
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
