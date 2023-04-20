@@ -1,3 +1,6 @@
+@import './assets/_library.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -8,4 +11,5 @@
 
 body {
   margin: 0;
+  background-color: $background;
 }

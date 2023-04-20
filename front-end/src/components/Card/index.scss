@@ -1,0 +1,49 @@
+@import "../../assets/_library.scss";
+
+.Card {
+  &-image {
+    width: 256px;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  &-line {
+    margin: 0;
+    width: 228px;
+    color: $text-light;
+    align-self: center;
+  }
+
+  &-figure,
+  &-figcaption {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-figure {
+    margin: 0;
+    width: 256px;
+  }
+
+  &-figcaption {
+    background-color: $white;
+  }
+
+  &-cost,
+  &-title {
+    font-family: "Inter", sans-serif;
+    color: $text-grey;
+    margin: 8px 12px;
+  }
+
+  &-title {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  &-cost {
+    font-size: 14px;
+    font-weight: 600;
+    color: $text-dark;
+  }
+}
