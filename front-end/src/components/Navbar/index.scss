@@ -3,6 +3,7 @@
 .Navbar {
   background-color: $white;
   margin-bottom: 34px;
+  padding: 10px;
 
   ul {
     margin: 0 120px;
@@ -10,17 +11,38 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-direction: column;
     list-style: none;
     height: 80px;
     position: relative;
 
     .logo {
       position: absolute;
-      bottom: 15px;
-      left: 20px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
 
       img {
-        width: 220px;
+        width: 180px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 481px) {
+    padding: 0;
+
+    ul {
+      align-items: center;
+      justify-content: flex-end;
+      flex-direction: row;
+
+      .logo {
+        top: 25%;
+        left: 20px;
+
+        img {
+          width: 220px;
+        }
       }
     }
   }
