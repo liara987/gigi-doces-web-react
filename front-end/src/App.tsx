@@ -1,9 +1,11 @@
-import ProductList from './components/ProductList/index';
+import ProductList from "./components/ProductList/index";
+import Navbar from "./components/Navbar/index";
 
 function App() {
   return (
     <>
-      <ProductList/>
+      <Navbar />
+      <ProductList />
     </>
   );
 }

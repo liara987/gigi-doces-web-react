@@ -1,0 +1,27 @@
+@import "../../assets/_library.scss";
+
+.Navbar {
+  background-color: $white;
+  margin-bottom: 34px;
+
+  ul {
+    margin: 0 120px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    height: 80px;
+    position: relative;
+
+    .logo {
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+
+      img {
+        width: 220px;
+      }
+    }
+  }
+}
