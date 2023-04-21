@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./styles.scss";
 import logo from "../../assets/logo-inline.png";
 
 function Navbar() {

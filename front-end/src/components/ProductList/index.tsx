@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./styles.scss";
 import data from "../../../database.json";
 import Card from "../Card/index.tsx";
 

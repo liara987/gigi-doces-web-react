@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./styles.scss";
 
 type CardProps = {
   src: string;
