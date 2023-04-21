@@ -1,8 +1,12 @@
 @import "../../assets/_library.scss";
 
 .Card {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+
   &-image {
-    width: 256px;
+    width: 228px;
     height: 300px;
     border-radius: 8px 8px 0 0;
   }
@@ -22,7 +26,7 @@
 
   &-figure {
     margin: 0;
-    width: 256px;
+    width: 228px;
   }
 
   &-figcaption {

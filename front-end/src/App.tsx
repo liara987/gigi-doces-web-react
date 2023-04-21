@@ -1,13 +1,9 @@
-import Card from "./components/Card/index.tsx";
+import ProductList from './components/ProductList/index';
 
 function App() {
   return (
     <>
-      <Card
-        src="https://liara987.github.io/gigi-doces/images/menu/09.cesta.jpeg"
-        cost={50}
-        title="Cesta com chocolate"
-      />
+      <ProductList/>
     </>
   );
 }
