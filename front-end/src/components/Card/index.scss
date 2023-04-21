@@ -13,9 +13,11 @@
 
   &-line {
     margin: 0;
-    width: 228px;
-    color: $text-light;
+    width: 200px;
     align-self: center;
+    background-color: $text-light;
+    height: 1px;
+    border: 0;
   }
 
   &-figure,
