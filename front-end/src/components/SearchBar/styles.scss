@@ -1,0 +1,27 @@
+.SearchBar {  
+  position: relative;
+
+  &-input {
+    margin: 0;
+  }
+
+  &-icon {
+    position: absolute;
+    left: 176px;
+    top: 10px;
+  }
+}
+
+input[type="text"] {
+  max-width: 352px;
+  height: 42px;
+  padding: 12px 20px;
+  border: 1px solid #f3f5f6;
+  border-radius: 8px;
+  background: #fff0ff;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+}

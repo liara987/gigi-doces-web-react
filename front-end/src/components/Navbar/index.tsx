@@ -1,5 +1,6 @@
 import "./styles.scss";
 import logo from "../../assets/logo-inline.png";
+import SearchBar from "./../SearchBar/index";
 
 function Navbar() {
   return (
@@ -8,8 +9,9 @@ function Navbar() {
         <li className="logo">
           <img src={logo} alt="Logo Gigi Doces Lembranças" />
         </li>
-        <li className="searchBar">SearchBar</li>
-        <li className="shoppingCart">ShoppingCart</li>
+        <li className="searchBar">
+          <SearchBar />
+        </li>      
       </ul>
     </nav>
   );
