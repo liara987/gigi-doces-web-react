@@ -5,9 +5,9 @@ import Card from "../Card/index.tsx";
 function ProductList() {
   return (
     <main className="ProductList">
-      {data.map((item, i) => {
+      {data.map(({id, image, cost, title}) => {
         return (
-          <Card key={i} src={item.image} cost={item.cost} title={item.title} />
+          <Card key={id} src={image} cost={cost} title={title} />
         );
       })}
     </main>
